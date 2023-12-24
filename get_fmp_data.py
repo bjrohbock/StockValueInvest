@@ -79,6 +79,6 @@ dividend_calendar_url = f'https://financialmodelingprep.com/api/v3/stock_dividen
 
 
 
-response = requests.request("GET", upcoming_stock_splits)
+response = requests.request("GET", dividend_calendar_url)
 
 print(response.text)
